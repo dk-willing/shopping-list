@@ -25,26 +25,13 @@
       <div class="center">
         <div class="main-header">
           <img src="img/logo.png" alt="Shopping cart img" class="logo-img" />
-          <h1 class="main-text">Shopping List</h1>
+          <h1 class="app-title">Shopping List</h1>
         </div>
 
         <form class="form">
           <input type="text" class="item-input" placeholder="Enter Item" />
           <button class="primary-btn">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="icon"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M12 4.5v15m7.5-7.5h-15"
-              />
-            </svg>
+            <ion-icon name="add-outline" class="icon"></ion-icon>
             <span>Add Item</span>
           </button>
           <input type="text" class="filter-items" placeholder="Filter Items" />
@@ -53,80 +40,45 @@
 
       <ul class="item-list">
         <li class="list-item">
-          <span>Apples</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="icon icon--red"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M6 18 18 6M6 6l12 12"
-            />
-          </svg>
+          Apples
+          <button class="icon btn">
+            <ion-icon name="close-outline" class="icon icon--red"></ion-icon>
+          </button>
         </li>
 
         <li class="list-item">
-          <span>Orange Juice</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="icon icon--red"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M6 18 18 6M6 6l12 12"
-            />
-          </svg>
+          Orange Juice
+          <button class="icon btn">
+            <ion-icon name="close-outline" class="icon icon--red"></ion-icon>
+          </button>
         </li>
 
         <li class="list-item">
-          <span>Oreos</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="icon icon--red"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M6 18 18 6M6 6l12 12"
-            />
-          </svg>
+          Oreos
+          <button class="icon btn">
+            <ion-icon name="close-outline" class="icon icon--red"></ion-icon>
+          </button>
         </li>
 
         <li class="list-item">
-          <span>Egg Omlet</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="icon icon--red"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M6 18 18 6M6 6l12 12"
-            />
-          </svg>
+          Egg Omlet
+          <button class="icon btn">
+            <ion-icon name="close-outline" class="icon icon--red"></ion-icon>
+          </button>
         </li>
       </ul>
 
       <button class="clear">Clear All</button>
     </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
