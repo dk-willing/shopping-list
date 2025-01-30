@@ -35,6 +35,10 @@ body {
   margin: 0 auto;
 }
 
+.edit-mode {
+  color: #ccc;
+}
+
 /* Layout */
 
 .main-header {
@@ -65,6 +69,7 @@ body {
   list-style: none;
   font-size: 2rem;
   font-weight: 600;
+  text-transform: capitalize;
 
   margin-bottom: 3rem;
 }
